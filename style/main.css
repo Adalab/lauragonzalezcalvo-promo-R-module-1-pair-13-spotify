@@ -1,5 +1,6 @@
 :root {
     --bg-color: black;
+    --hero-text-color: white;
 }
 
 body {
@@ -30,6 +31,27 @@ body {
     background-position: right;
     padding-top: 200px;
 }
+.h1{
+    font-size: 48px;
+    font-weight:bold;
+    color: var(--hero-text-color);
+}
+.description {
+    font-size: 24px;
+    font-weight:bold;
+    color: var(--hero-text-color);
+}
+.planes{
+    background-color: green;
+    font-weight:bold;
+    color: var(--hero-text-color);
+}
+.linkplanes{
+    text-decoration: none;
+    color: white;
+  }
+  
+
 
 
 
